@@ -20,7 +20,7 @@ Running the algorithm
 ----------------------
 
 ```
-./word2vec_constraints -train CORPORA.txt -output EMBEDDINGS.txt -size SIZE -window W -negative NG -cbow 0 -read-simconstr CONSTRAINTS.txt -lambdasim LAMBDA
+./word2vec_constraints -train CORPORA.txt -output EMBEDDINGS.txt -size SIZE -window W -negative NG -cbow 0 -read-simconstr CONSTRAINTS.cst -lambdasim LAMBDA
 
 ./word2vec_constraints -train ENEU.txt -output ENEU.emb -size 300 -window 5 -negative 5 -cbow 0 -read-simconstr ENEU.cst -lambdasim 0.01
 ```
