@@ -16,10 +16,8 @@ Each line in the constraint file should start with a target word, followed by it
 
 moon ilargi ilargi-argi lunation moonlight moonshine ilargite daydream...
 
-Usage
-------
-
-The following command shows 
+Running the algorithm
+----------------------
 
 ```
 ./word2vec_constraints -train CORPORA.txt -output EMBEDDINGS.txt -size SIZE -window W -negative NG -cbow 0 -read-simconstr CONSTRAINTS.txt -lambdasim LAMBDA
