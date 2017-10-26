@@ -14,7 +14,7 @@ Data you need
 
 Each line in the constraint file should start with a target word, followed by its corresponding contraints (space delimited). The following example shows the English-Basque bilingual synonymy-related constraints for the word moon in WordNet 3.0g:
 
-moon ilargi ilargi-argi lunation moonlight moonshine ...
+moon ilargi ilargi-argi lunation moonlight moonshine ilargite daydream...
 
 Usage
 ------
