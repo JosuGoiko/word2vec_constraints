@@ -2,9 +2,7 @@ word2vec+constraints
 ====================
 This is an open source implementation of a modified version of word2vec's skip-gram architecture that includes constraints.
 
-The modified skip-gram is able to jointly learn from corpora and a external source (such as a knowledge base) via a regularization term added in the former loss function. The regularizer incorporates extra semantic information from the external source, e.g. synonymy-related words from a knowledge base, into the learning process and thus adds co-occurrences that do not appear in the corpus.
-
-The algorithm is prepared to include up to three external sources at once, allowing to enrich the information in the corpus with semantic information of different nature.
+The modified skip-gram is able to jointly learn from corpora and a external source (such as a knowledge base) via a regularization term added in the former loss function. The regularizer incorporates extra semantic information from the external source (e.g. synonymy-related words from a knowledge base) into the learning process and thus adds co-occurrences that do not appear in the corpus.
 
 Data you need
 ---------------
