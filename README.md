@@ -10,7 +10,7 @@ Data you need
 1. Monolingual or multilingual corpus
 2. Monolingual or multilingual constraint file
 
-Each line in the constraint file should start with a target word, followed by its corresponding contraints (space delimited) either monolingual or multilingual. The following example shows the English-Basque bilingual synonymy-related constraints for the word moon in WordNet 3.0g:
+Each line in the constraint file should start with a target word, followed by its corresponding contraints (space delimited) either monolingual or multilingual. The following example shows the English-Basque bilingual synonymy-related constraints for the word "moon" in WordNet 3.0g:
 ```
 moon ilargi ilargi-argi lunation moonlight moonshine ilargite daydream ...
 ```
